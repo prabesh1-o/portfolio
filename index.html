@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prabesh Upreti | Portfolio</title>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <h2>Prabesh</h2>
+    <ul>
+        <li><button onclick="showSection('home')">Home</button></li>
+        <li><button onclick="showSection('skills')">Skills</button></li>
+        <li><button onclick="showSection('experience')">Experience</button></li>
+        <li><button onclick="showSection('education')">Education</button></li>
+    </ul>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero section-active">
+    <div class="hero-container">
+        <img src="assets/images/profile.jpg" alt="profile" class="profile-pic">
+        <h1>Prabesh Upreti</h1>
+        <h3>Software Engineer & Data Enthusiast</h3>
+        <p class="intro">
+            Hi! I am a passionate software developer with experience in Python, Django, FastAPI, and Odoo. 
+            I love building efficient backend systems and helping businesses automate their processes.
+        </p>
+        <a href="assets/files/Prabesh_Upreti_CV.pdf" class="btn" download>Download CV</a>
+    </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="hidden-section content-section">
+    <h2>Skills</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Programming</h3>
+            <p class="desc">Python, JavaScript, SQL</p>
+        </div>
+
+        <div class="card">
+            <h3>Frameworks</h3>
+            <p class="desc">Django, FastAPI, Odoo</p>
+        </div>
+
+        <div class="card">
+            <h3>Databases</h3>
+            <p class="desc">PostgreSQL, MySQL, MSSQL</p>
+        </div>
+
+        <div class="card">
+            <h3>Tools</h3>
+            <p class="desc">Git, Docker, Linux</p>
+        </div>
+    </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="hidden-section content-section">
+    <h2>Experience</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Software Developer</h3>
+            <p class="desc"><strong>Telematics Tech Pvt. Ltd.</strong><br>Worked on Odoo MIS system, automation, and ERP workflows.</p>
+        </div>
+
+        <div class="card">
+            <h3>Python Intern</h3>
+            <p class="desc"><strong>Infogram Technologies</strong><br>Built FastAPI APIs and optimized PostgreSQL.</p>
+        </div>
+    </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education" class="hidden-section content-section">
+    <h2>Education</h2>
+    <div class="card">
+        <h3>BSc CSIT</h3>
+        <p class="desc"><strong>Tribhuvan University (2021–2025)</strong><br>OOP, Web Development, Database Systems</p>
+    </div>
+</section>
+
+<!-- FOOTER WITH CONTACT -->
+<footer>
+    <p>© 2026 Prabesh Upreti</p>
+    <p>
+        <strong>Email:</strong> prabeshupreti29@gmail.com | 
+        <strong>Phone:</strong> 9843634159 | 
+        <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/prabesh-upreti" target="_blank">Visit Profile</a>
+    </p>
+</footer>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>
