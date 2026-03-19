@@ -139,6 +139,26 @@ footer a:hover {
     display: block;
 }
 
+/* Already existing styles remain... */
+
+/* PROJECTS */
+#projects .grid .card {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+#projects .card h3 {
+    color: #38bdf8;
+    margin-top: 0;
+}
+
+#projects .card .desc {
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
 /* RESPONSIVE */
 @media (max-width: 768px) {
     nav {
